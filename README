@@ -1,0 +1,35 @@
+Guardian Content API for NodeJS
+===============================
+
+Setup
+-----
+
+This example uses NodeJS and a number of dependencies to demonstrate a simple example of retrieving content from the Guardian Content API and present that in a web page.  Dependencies are managed by [ndistro](https://github.com/visionmedia/ndistro) so should be easy to get started. Install ndistro as per instructions on that site and then run 'ndistro' on the command line.
+
+This will set up the following dependencies:
+
+ - connect, a HTTP middleware library
+ - expressjs, a lightweight web framework
+ - ejs, a rendering engine for HTML
+ - node-properties, a small library to externalise configuration
+
+Once ndisto has run the following directories will have been created: bin, lib and modules.  NodeJS is now setup locally and relative to the directory you are currently in.  
+
+Running
+-------
+
+To run the web app, run the following command
+
+	./bin/node index.js
+	
+If you have not changed any defaults, the web app will load on port 3000.
+
+Usage
+-----
+
+You will be required to enter a name for your query and the URI for the query.  You can get the query URI by going to the [Content API Explorer](http://explorer.content.guardianapis.com).  Sign up for an account (without one, you can't get HTML from the API required for this app) and use the 'content' tab to build your query.
+
+Notes
+-----
+
+There is no persistence in this application, so when you start the app no queries will have been remembered. 

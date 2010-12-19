@@ -1,0 +1,316 @@
+html * {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.identity h1 {
+    padding-bottom: 20px;
+}
+#wrapper {
+    font-family: arial,sans-serif;
+    margin: 20px auto;
+    width: 940px;
+}
+.identity .component {
+    background-color: #FFFFFF;
+    clear: both;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.identity .component .hd {
+    background-color: #EDEDED;
+    border-top: 3px solid #0061A6;
+    margin-bottom: 5px;
+    min-height: 26px;
+    padding: 3px 0 14px;
+    position: relative;
+}
+.identity .component h3, .identity .component h2 {
+    color: #333333;
+    font-family: georgia,serif;
+    font-size: 18px;
+    font-weight: normal !important;
+    line-height: 21px;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.identity .component h3 {
+    font-size: 15px;
+}
+.identity .component .ft {
+    border-top: 1px dotted #999999;
+    clear: both;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+.identity .component .bd h2 {
+    padding-bottom: 14px;
+    padding-left: 0;
+}
+.identity .five-col {
+    margin: 0 auto;
+    width: 460px;
+}
+.eight-col {
+    margin: 0 auto;
+    width: 620px;
+}
+.identity .edge {
+    margin: 0;
+}
+.identity fieldset {
+    border: medium none;
+}
+.identity .hidden, .js .identity div.tooltip, .js .identity .edit, .identity div.tooltipHide {
+    display: none !important;
+}
+.identity span.label, .identity label {
+    display: block;
+    float: left;
+    width: 120px;
+}
+.identity label {
+    padding-top: 5px;
+}
+.identity div.field, .identity p {
+    clear: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.identity div.actions {
+    padding-top: 20px;
+}
+.identity h4 {
+    margin-bottom: 10px;
+}
+.identity ul {
+    margin-left: 20px;
+}
+.identity ul.errors li, .identity ul.errors {
+    color: #FF0000;
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.identity span.errors {
+    color: #FF0000;
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.identity div.field:after, .identity p:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.identity span.radio {
+    float: left;
+    margin-right: 10px;
+}
+.identity span.radio label {
+    padding: 0 4px 0 0;
+    width: auto;
+}
+.identity div.tooltip {
+    background-image: url("images/triangle_bg.png");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    left: 370px;
+    padding: 6px 15px;
+    position: absolute;
+    top: -2px;
+    width: 210px;
+}
+.identity div.username {
+    padding: 20px 0 10px;
+}
+.identity div.username .tooltip {
+    top: 12px;
+}
+.identity div.weak, .identity div.error {
+    background-color: #F7D2CC;
+}
+.identity div.globalError, div.globalMessage {
+    background-color: #F7D2CC;
+    margin-bottom: 15px;
+    padding: 6px 15px;
+}
+.identity div.globalMessage {
+    background-color: #DFEBF4;
+}
+.identity div.medium, .identity div.helper {
+    background-color: #DFEBF4;
+}
+.identity div.strong, .identity div.password {
+    background-color: #CCE7CC;
+}
+.identity label.vague {
+    top: -25px;
+}
+.identity input.error {
+    border: 1px solid #F7D2CC !important;
+}
+.identity input.valid {
+    background-image: url("images/tick.gif");
+    background-position: 225px 4px;
+    background-repeat: no-repeat;
+}
+.identity input[type="email"], .identity input[type="password"], .identity input[type="text"] {
+    border: 1px solid #999999;
+    min-height: 14px;
+    padding: 4px 22px 4px 4px;
+    width: 215px;
+}
+.identity input[type="email"]:focus, .identity input[type="password"]:focus {
+    border-color: #333333;
+}
+.identity #forgotten-password-link, .identity .check {
+    display: block;
+    margin-left: 120px;
+}
+.identity .check label, .identity .check input {
+    float: left;
+}
+.identity .check label {
+    margin-left: 5px;
+    padding: 0;
+    width: 45%;
+}
+.identity .check.accept .error {
+    left: 245px;
+}
+.identity .bd {
+    padding-top: 10px;
+}
+.identity a {
+    color: #005689;
+    padding: 1px;
+    text-decoration: none;
+}
+.identity a:hover {
+    text-decoration: underline;
+}
+.identity a:focus {
+    background-color: #005689;
+    color: white;
+}
+.identity input[type="submit"] {
+    float: right;
+}
+.identity progress {
+    background-color: white;
+    display: block;
+    height: 5px;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+    width: 300px;
+}
+.identity progress[value="33"] {
+    border-left: 100px solid orange;
+    width: 200px;
+}
+.identity progress[value="66"] {
+    border-left: 200px solid orange;
+    width: 100px;
+}
+.identity progress[value="100"] {
+    border-left: 300px solid orange;
+    width: 0;
+}
+.identity .button {
+    background: url("images/button_bg.png") repeat-x scroll left bottom #0061A6;
+    border: 1px solid white;
+    color: white;
+    display: block;
+    float: right;
+    font-family: georgia,serif;
+    font-size: 16px;
+    height: 29px;
+    outline: medium none;
+    padding: 2px 7px 4px;
+}
+.identity a.button {
+    height: 22px;
+    line-height: 1.4;
+    padding-top: 1px;
+}
+.identity .button:hover {
+    background-color: #666666;
+    cursor: pointer;
+    text-decoration: none;
+}
+.identity .button:focus {
+    outline: 1px dotted;
+}
+.identity .dashboard {
+    margin: 0 auto;
+    width: 800px;
+}
+.identity .dashboard .five-col {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.identity .dashboard .one-col {
+    float: left;
+    margin-right: 20px;
+    width: 140px;
+}
+.identity .dashboard .bd ul {
+    margin: 0;
+}
+.identity .dashboard .bd li {
+    list-style-type: none;
+    margin: 0;
+}
+.identity .dashboard .bd li.b3 {
+    border-top: 1px dotted #999999;
+    padding-bottom: 7px;
+    padding-top: 3px;
+}
+.identity .dashboard .promo .bd li {
+    margin-bottom: 20px;
+}
+.identity .dashboard .promo .bd h4 {
+    font-size: 12px;
+}
+.identity .dashboard .promo .bd a {
+    display: block;
+}
+.identity div.gnm-email {
+    padding-top: 30px;
+}
+.identity .dashboard-radio label {
+    display: inline;
+    float: none;
+    padding: 0;
+    width: auto;
+}
+.identity .dashboard-radio span {
+    display: block;
+    float: left;
+    width: 350px;
+}
+.identity .dashboard-radio input[type="radio"] {
+    position: relative;
+    top: 2px;
+}
+.identity .dashboard-radio label[for="receive-email-others-yes"], .identity .dashboard-radio label[for="receive-email-gnm-yes"] {
+    margin-right: 8px;
+}
+.identity .bd .promo-details {
+    border-bottom: 1px dotted #999999;
+    margin-bottom: 15px;
+}
+.identity .bd .promo-details p {
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+.identity .bd .promo-details img {
+    float: left;
+    margin: 0 20px 10px 0;
+}
